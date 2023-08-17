@@ -1,8 +1,9 @@
 // Realizar un programa que elimine los dos últimos elementos de un array. Mostrar el resultado
 
-var miArray = [10, 20, 30, 40, 50, 60];
+var arr = [10, 20, 30, 40, 50, 60];
+arr.splice(-2);
 
-miArray.splice(-2);
+// Convertio arrary a cadena de texto con join
+var resultado = ' \n Array con los 2 últimos elementos eliminados: ' + arr.join(', ');
 
-// Mostrar el arreglo resultante
-console.log("Arreglo después de eliminar los dos últimos elementos:", miArray);
+alert('Array original: 10, 20, 30 40, 60' + resultado);
