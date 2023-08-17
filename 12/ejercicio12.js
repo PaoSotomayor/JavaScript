@@ -10,7 +10,7 @@ let dato;
 if (!isNaN(input)) {
     dato = parseFloat(input); //Convierto el dato en un número
 } else if (input.toLowerCase() === "true" || input.toLowerCase() === "false") {
-    dato = input.toLowerCase() === "true"; //Convertirlo en un boolean
+    dato = input.toLowerCase() === "true";
 } else {
     dato = input;
 }
