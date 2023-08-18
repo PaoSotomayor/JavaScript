@@ -19,8 +19,8 @@ function cargarLibro(libro) {
 }
 
 function mostrarLibro() {
-    alert(`ISBN: ${this.ISBN} 
-   Título:  ${this.Titulo} 
-   Autor:  ${this.Autor} 
-   Número de páginas: ${this.NumPag}`)
+    alert(`ISBN: ${ISBN} 
+   Título:  ${Titulo} 
+   Autor:  ${Autor} 
+   Número de páginas: ${NumPag}`)
 }
