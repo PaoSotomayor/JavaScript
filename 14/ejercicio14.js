@@ -2,18 +2,17 @@
 // Número de páginas. Crear un método para cargar un libro pidiendo los datos al usuario y luego informar 
 // mediante otro método el número de ISBN, el título, el autor del libro y el numero de páginas.
 
-alert('Ingrese los datos del libro')
+alert('Ingrese los datos del libro' + cargarLibro())
+mostrarLibro();
 
-mostrarLibro()
-
-const libro = {
+const Libro = {
     ISBN: 0,
     Titulo: ' ',
     Autor: ' ',
     NumPag: 0,
 }
-
-function cargarLibro(libro) {
+var libro1 = new Libro();
+function cargarLibro() {
     ISBN = prompt('Ingrese el número de ISBN');
     Titulo = prompt('Ingrese el título');
     Autor = prompt('Ingrese el Autor');
@@ -26,3 +25,4 @@ function mostrarLibro() {
    Autor:  ${Autor} 
    Número de páginas: ${NumPag}`)
 }
+
