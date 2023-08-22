@@ -11,11 +11,17 @@
 // </body>
 // </html>
 
+// function getFormValores() {
+//     const nombre = document.getElementById('nombreInput').value;
+//     const apellido = document.getElementById('apellidoInput').value;
+
+//     alert(`Nombre: ${nombre}\nApellido: ${apellido}`);
+
+//     return false; // Evitar el envío tradicional del formulario
+// }
 function getFormValores() {
-    const nombre = document.getElementById('nombreInput').value;
-    const apellido = document.getElementById('apellidoInput').value;
 
-    alert(`Nombre: ${nombre}\nApellido: ${apellido}`);
-
-    return false; // Evitar el envío tradicional del formulario
-}
+    const datos = document.getElementsByTagName('input');
+    console.log('Datos' + '\nNombre: ' + (datos[0].value) + '\nApellido: ' + (datos[1].value));
+    alert('Datos enviados')
+};
