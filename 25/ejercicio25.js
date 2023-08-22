@@ -14,6 +14,6 @@
 function getFormValores() {
 
     const datos = document.getElementById('form1');
-    console.log('Datos' + '\nNombre: ' + (datos[0].value) + '\nApellido: ' + (datos[1].value));
+    console.log('Los datos enviados son:' + '\nNombre: ' + (datos[0].value) + '\nApellido: ' + (datos[1].value));
     alert('Datos enviados')
 };
