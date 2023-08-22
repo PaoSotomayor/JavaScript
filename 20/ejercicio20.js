@@ -7,3 +7,12 @@ for (let i = 0; i < matriz.length; i++) {
     array.push(matriz[i][0] + 3);
 }
 alert('[' + array + ']');
+
+//otra forma
+// let array = [[3], [6], [9], [12], [15]];
+
+// array = array.flat();
+// array.splice(0,2);
+// array.push(18);
+
+// console.log(array);
