@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const resultadoElement = document.getElementById('resultado');
 
     form.addEventListener('submit', function (event) {
-        event.preventDefault(); // Evitar que el formulario se envíe
+        event.preventDefault(); // Evita que el formulario se envíe
 
         const diametro = parseFloat(form.diametro.value);
         const radio = diametro / 2;
@@ -14,3 +14,4 @@ document.addEventListener('DOMContentLoaded', function () {
         resultadoElement.textContent = `El radio del círculo es: ${radio}`;
     });
 });
+
