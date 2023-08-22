@@ -11,14 +11,6 @@
 // </body>
 // </html>
 
-// function getFormValores() {
-//     const nombre = document.getElementById('nombreInput').value;
-//     const apellido = document.getElementById('apellidoInput').value;
-
-//     alert(`Nombre: ${nombre}\nApellido: ${apellido}`);
-
-//     return false; // Evitar el envío tradicional del formulario
-// }
 function getFormValores() {
 
     const datos = document.getElementById('form1');
