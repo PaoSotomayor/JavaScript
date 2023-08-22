@@ -7,8 +7,21 @@ document.addEventListener('DOMContentLoaded', function () {
     let palabrasLargas = palabras.filter(palabra => palabra.length > 8);
 
     let contenidoResaltado = palabras.map(palabra =>
-        palabrasLargas.includes(palabra) ? `<span class="highlight">${palabra}</span>` : palabra
+        palabrasLargas.includes(palabra) ? `<span style = 'background:yellow' class="highlight">${palabra}</span>` : palabra
     );
 
     parrafo.innerHTML = contenidoResaltado.join(' ');
 });
+
+
+// document.getElementsByTagName("p")[1].innerHTML = document
+//   .getElementsByTagName("p")[1]
+//   .innerText.split(" ")
+//   .map((palabra) =>
+//     palabra.length > 8 ? `<span class = "yb"> ${palabra} </span>` : palabra
+//   )
+//   .join(" ");
+
+// var css = document.createElement("style");
+// css.innerHTML = ".yb {background-color: yellow;}";
+// document.getElementsByTagName("head")[0].appendChild(css);
