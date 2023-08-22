@@ -2,7 +2,7 @@
 // lo muestre en el HTML.
 
 document.addEventListener('DOMContentLoaded', function () {
-    const form = document.getElementById('calculadoraForm');
+    const form = document.getElementById('calculo');
     const resultadoElement = document.getElementById('resultado');
 
     form.addEventListener('submit', function (event) {
