@@ -9,3 +9,14 @@ let palabraLarga = () => {
     alert(letra);
 }
 palabraLarga(frase);
+
+//con map
+// let plarga = "";
+// let palabra = prompt("Ingrese una frase: ").split(' ').map(function (elemento){
+   
+//     if (elemento.length>plarga.length) {
+//         plarga = elemento;
+//     }
+
+// });
+// alert(plarga);
